@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-div {
+    display: flex;
+}
+
+.nav-container {
+    max-width: 296px;
+    width: 100%;
+    background: #14171F;
+    display: inline-flex;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 32px;
+    height: 1262px;
+
+}
+
+.btn {
+    padding: 12px 24px;
+
+}
+
+.frme {
+    display: flex;
+    justify-content: center;
+}
+
+.androd-container {
+    display: flex;
+    max-width: 248px;
+    width: 100%;
+    justify-content: center;
+    padding: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+}
+
+.android {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.aside-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.Richard-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.And {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.Student {
+    color: #929699;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.Dashboard-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.oard {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.das {
+    color: #929699;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.Dashboard-contain {
+    display: flex;
+    max-width: 248px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 1px solid #3D414B;
+    border-bottom: 1px solid #3D414B;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.Assignments {
+    display: flex;
+    max-width: 137px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.btn {
+    display: flex;
+    max-width: 253px;
+    width: 100%;
+    padding: 12px 24px;
+    justify-content: center;
+
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+}
+
+.butt {
+    background: #14171F;
+    color: #7B62FF;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.big-container {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.Learning {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.Became {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.teacher {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background: #F7F7F7;
+}
+
+main {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1088px;
+    width: 100%;
+}
+
+.Place-div {
+    background: url(./image\ 2.png);
+    background-position-y: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    padding-left: 40px;
+
+
+}
+
+.Tune {
+    color: #2F2F2F;
+
+    font-family: Inter;
+    font-size: 40px;
+    max-width: 416px;
+    width: 100%;
+}
+
+.Settings-div {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 913px;
+    width: 100%;
+}
+
+.Account {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    color: #2F2F2F;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+.Account:hover {
+    background-color: #14171F;;
+    color: #FFF;
+    
+  }
+ 
