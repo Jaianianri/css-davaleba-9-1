@@ -1,7 +1,45 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .nav-container{
-        max-width: 900px;
-        background-color: brown;
+
+    header {
+        padding: 16px 32px;
+    }
+
+    .ff {
+        display: flex;
+    }
+
+    .main-content {
+        max-width: 704px;
+        width: 100%;
+    }
+
+    .Settings-div {
+        max-width: 704px;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+    .Andrio-profil {
+        max-width: 704px;
+        width: 100%;
+    }
+    .Andrio-contant {
+        max-width: 672px;
+        width: 100%;
+    }
+    .Student-content {
+        max-width: 312px;
+        width: 100%;
+    }
+    .Location-content {
+        max-width: 672px;
+        max-width: 100%;
+    }
+    .About-container {
+        max-width: 672px;
+        width: 100%;
     }
 }
-    

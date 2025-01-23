@@ -6,25 +6,21 @@
 
 .big-div {
     display: flex;
+   
 }
 
-.nav-container {
+nav {
+    background: #14171F;
     max-width: 296px;
     width: 100%;
-    background: #14171F;
-    display: inline-flex;
-    padding-right: 24px;
-    padding-left: 24px;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 32px;
-    height: 1262px;
+    padding: 24px;
 
 }
 
-.btn {
-    padding: 12px 24px;
-
+.nav-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 466px;
 }
 
 .frme {
@@ -86,7 +82,7 @@
 
 .oard {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 12px;
 }
 
@@ -130,17 +126,20 @@
     border: 1px solid #7B62FF;
 }
 
-.butt {
-    background: #14171F;
-    color: #7B62FF;
-    border: none;
-    font-family: Inter;
-    font-size: 16px;
+.button-nav {
+    max-width: 253px;
+    width: 100%;
     display: flex;
-    gap: 12px;
+    padding: 12px 24px;
     justify-content: center;
     align-items: center;
-
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    color: #7B62FF;
+    background: #14171F;
+    font-family: Inter;
+    font-size: 16px;
 }
 
 .big-container {
@@ -153,9 +152,12 @@ header {
     align-items: center;
     padding: 32px;
 }
+.hover:hover {
+    background-color: unset;
+}
 
 .Learning {
-    max-width: 1080px;
+   
     width: 100%;
     display: flex;
     align-items: center;
@@ -201,7 +203,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    max-width: 1088px;
+    max-width: 1080px;
     width: 100%;
 }
 
@@ -227,7 +229,7 @@ main {
 .Settings-div {
     display: inline-flex;
     align-items: flex-start;
-    justify-content: space-between;
+    gap: 16px;
     max-width: 913px;
     width: 100%;
 }
@@ -245,9 +247,563 @@ main {
     font-family: Inter;
     font-size: 14px;
 }
+
 .Account:hover {
-    background-color: #14171F;;
+    background-color: #14171F;
+    ;
     color: #FFF;
-    
-  }
- 
+
+}
+
+.footer-container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+}
+
+.footer-box {
+    max-width: 702px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bigdiv {
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+.footer-content {
+    display: flex;
+    max-width: 702px;
+    width: 100%;
+    padding: 24px 16px;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.personal {
+    display: flex;
+    gap: 384px;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    max-width: 254px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.here {
+    color: #14171F;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.footer-name {
+    display: flex;
+    align-items: flex-start;
+    max-width: 670px;
+    width: 100%;
+    gap: 16px;
+}
+
+.ful-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 327px;
+    width: 100%;
+}
+
+.Please {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+
+.Plea {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+
+}
+
+
+.ent {
+    color: #666;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.Pleas {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #7B62FF;
+    background: #E6E1FF;
+    box-shadow: 0px 4px 4px 0px rgba(123, 98, 255, 0.25);
+}
+
+.footer-number {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    max-width: 670px;
+    width: 100%;
+}
+
+.number-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 327px;
+    width: 100%;
+}
+
+.contact-number {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    max-width: 327px;
+    width: 100%;
+}
+
+.number {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #14171F;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.number-code {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    max-width: 251px;
+    width: 100%;
+
+}
+
+.save-butn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.save {
+    display: flex;
+    width: 104px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: #7F56D9;
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+
+}
+
+.additional-container {
+    display: flex;
+    width: 702px;
+    align-items: center;
+    gap: 24px;
+}
+
+.development-container {
+    display: flex;
+    max-width: 432px;
+    width: 100%;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+.development-div {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 12px;
+    background: #F9FBFC;
+    max-width: 400px;
+    width: 100%;
+}
+
+.development {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 368px;
+    width: 100%;
+    height: 78px;
+}
+
+.develop {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.Role {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.frontent-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.Resume-content {
+    display: flex;
+    padding: 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    max-width: 246px;
+    width: 100%;
+}
+
+.Resume-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.link-span {
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #666;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.select-div {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    max-width: 122px;
+    width: 100%;
+    padding-right: 12px;
+}
+
+.dd {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.https {
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.Andrio-profil {
+    display: flex;
+    max-width: 346px;
+    width: 100%;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #14171F;
+
+}
+
+.Andrio-contant {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    background: #FFF;
+    max-width: 314px;
+    width: 100%;
+}
+
+.Andrio-contant {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.Andrio-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.globus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.hard {
+    color: #2F2F2F;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.Andrio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.ncer {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.Student-content {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #C7C7C7;
+    max-width: 133px;
+    width: 100%;
+}
+
+.Location-container {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #FFF;
+
+}
+
+.Location-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    max-width: 282px;
+    width: 100%;
+}
+
+.Meadows-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.Meadows-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.Evergreen {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    background: #F9FBFC;
+}
+
+.evry-div {
+    border-radius: 8px;
+    background: #F9FBFC;
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+}
+
+.Olson {
+    display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #D2F0FF;
+    color: #666;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.Gregorio {
+    display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    color: #666;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.About-container {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #FFF;
+    max-width: 314px;
+    width: 100%;
+
+}
+
+.About-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.aboutt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.words {
+    color: #2F2F2F;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+}
+.ff {
+    display: none;
+}
+
+.impactful-div {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    color: #666;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+
