@@ -6,7 +6,7 @@
 
 .big-div {
     display: flex;
-   
+
 }
 
 nav {
@@ -20,7 +20,8 @@ nav {
 .nav-nav {
     display: flex;
     flex-direction: column;
-    gap: 466px;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .frme {
@@ -152,12 +153,13 @@ header {
     align-items: center;
     padding: 32px;
 }
+
 .hover:hover {
     background-color: unset;
 }
 
 .Learning {
-   
+
     width: 100%;
     display: flex;
     align-items: center;
@@ -213,6 +215,8 @@ main {
     padding-top: 66px;
     padding-bottom: 66px;
     padding-left: 40px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
 
 
 }
@@ -290,7 +294,7 @@ main {
 
 .personal {
     display: flex;
-    gap: 384px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -455,7 +459,7 @@ main {
 
 .development-container {
     display: flex;
-    max-width: 432px;
+    
     width: 100%;
     padding: 24px 16px;
     flex-direction: column;
@@ -513,7 +517,7 @@ main {
     gap: 16px;
     border-radius: 16px;
     border: 1px solid #C7C7C7;
-    max-width: 246px;
+    
     width: 100%;
 }
 
@@ -580,7 +584,7 @@ main {
 
 .Andrio-profil {
     display: flex;
-    max-width: 346px;
+    
     width: 100%;
     padding: 16px;
     flex-direction: column;
@@ -600,7 +604,7 @@ main {
     border-radius: 50px;
     border: 1px solid #C7C7C7;
     background: #FFF;
-    max-width: 314px;
+ 
     width: 100%;
 }
 
@@ -761,7 +765,7 @@ main {
     align-self: stretch;
     border-radius: 12px;
     background: #FFF;
-    max-width: 314px;
+   
     width: 100%;
 
 }
@@ -788,6 +792,7 @@ main {
     font-family: Inter;
     font-size: 14px;
 }
+
 .ff {
     display: none;
 }
@@ -805,5 +810,3 @@ main {
     font-family: Inter;
     font-size: 14px;
 }
-
-
